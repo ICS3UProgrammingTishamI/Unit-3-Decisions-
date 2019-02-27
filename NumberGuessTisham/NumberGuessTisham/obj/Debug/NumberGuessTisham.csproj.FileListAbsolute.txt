@@ -1,0 +1,10 @@
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Islam, Tisham (s419015)\Unit 3 (Decisions)\NumberGuessTisham\NumberGuessTisham\bin\Debug\NumberGuessTisham.exe.config
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Islam, Tisham (s419015)\Unit 3 (Decisions)\NumberGuessTisham\NumberGuessTisham\bin\Debug\NumberGuessTisham.exe
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Islam, Tisham (s419015)\Unit 3 (Decisions)\NumberGuessTisham\NumberGuessTisham\bin\Debug\NumberGuessTisham.pdb
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Islam, Tisham (s419015)\Unit 3 (Decisions)\NumberGuessTisham\NumberGuessTisham\obj\Debug\NumberGuessTisham.csprojAssemblyReference.cache
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Islam, Tisham (s419015)\Unit 3 (Decisions)\NumberGuessTisham\NumberGuessTisham\obj\Debug\NumberGuessTisham.frmNumberGuess.resources
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Islam, Tisham (s419015)\Unit 3 (Decisions)\NumberGuessTisham\NumberGuessTisham\obj\Debug\NumberGuessTisham.Properties.Resources.resources
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Islam, Tisham (s419015)\Unit 3 (Decisions)\NumberGuessTisham\NumberGuessTisham\obj\Debug\NumberGuessTisham.csproj.GenerateResource.cache
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Islam, Tisham (s419015)\Unit 3 (Decisions)\NumberGuessTisham\NumberGuessTisham\obj\Debug\NumberGuessTisham.csproj.CoreCompileInputs.cache
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Islam, Tisham (s419015)\Unit 3 (Decisions)\NumberGuessTisham\NumberGuessTisham\obj\Debug\NumberGuessTisham.exe
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Islam, Tisham (s419015)\Unit 3 (Decisions)\NumberGuessTisham\NumberGuessTisham\obj\Debug\NumberGuessTisham.pdb
