@@ -31,8 +31,9 @@
             this.txtNumGuess = new System.Windows.Forms.TextBox();
             this.lblGuessANumber = new System.Windows.Forms.Label();
             this.btnGuess = new System.Windows.Forms.Button();
-            this.picInCorrect = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.picInCorrect)).BeginInit();
+            this.picRightWrong = new System.Windows.Forms.PictureBox();
+            this.lblRightWrong = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.picRightWrong)).BeginInit();
             this.SuspendLayout();
             // 
             // txtNumGuess
@@ -63,29 +64,41 @@
             this.btnGuess.TabIndex = 3;
             this.btnGuess.Text = "GUESS!";
             this.btnGuess.UseVisualStyleBackColor = true;
+            this.btnGuess.Click += new System.EventHandler(this.btnGuess_Click);
             // 
-            // picInCorrect
+            // picRightWrong
             // 
-            this.picInCorrect.Image = global::NumberGuessTisham.Properties.Resources.checkmark1;
-            this.picInCorrect.Location = new System.Drawing.Point(855, 40);
-            this.picInCorrect.Name = "picInCorrect";
-            this.picInCorrect.Size = new System.Drawing.Size(521, 490);
-            this.picInCorrect.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picInCorrect.TabIndex = 4;
-            this.picInCorrect.TabStop = false;
+            this.picRightWrong.Image = global::NumberGuessTisham.Properties.Resources.checkmark1;
+            this.picRightWrong.Location = new System.Drawing.Point(855, 40);
+            this.picRightWrong.Name = "picRightWrong";
+            this.picRightWrong.Size = new System.Drawing.Size(521, 490);
+            this.picRightWrong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picRightWrong.TabIndex = 4;
+            this.picRightWrong.TabStop = false;
+            // 
+            // lblRightWrong
+            // 
+            this.lblRightWrong.AutoSize = true;
+            this.lblRightWrong.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRightWrong.Location = new System.Drawing.Point(21, 339);
+            this.lblRightWrong.Name = "lblRightWrong";
+            this.lblRightWrong.Size = new System.Drawing.Size(156, 25);
+            this.lblRightWrong.TabIndex = 5;
+            this.lblRightWrong.Text = "Hidden for now";
             // 
             // frmNumberGuess
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1399, 660);
-            this.Controls.Add(this.picInCorrect);
+            this.Controls.Add(this.lblRightWrong);
+            this.Controls.Add(this.picRightWrong);
             this.Controls.Add(this.btnGuess);
             this.Controls.Add(this.lblGuessANumber);
             this.Controls.Add(this.txtNumGuess);
             this.Name = "frmNumberGuess";
             this.Text = "Number Guessing Game by Tisham, Islam";
-            ((System.ComponentModel.ISupportInitialize)(this.picInCorrect)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picRightWrong)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -96,7 +109,8 @@
         private System.Windows.Forms.TextBox txtNumGuess;
         private System.Windows.Forms.Label lblGuessANumber;
         private System.Windows.Forms.Button btnGuess;
-        private System.Windows.Forms.PictureBox picInCorrect;
+        private System.Windows.Forms.PictureBox picRightWrong;
+        private System.Windows.Forms.Label lblRightWrong;
     }
 }
 
