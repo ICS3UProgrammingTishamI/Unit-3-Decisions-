@@ -33,6 +33,7 @@
             this.btnGuess = new System.Windows.Forms.Button();
             this.picRightWrong = new System.Windows.Forms.PictureBox();
             this.lblRightWrong = new System.Windows.Forms.Label();
+            this.btnPlay = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picRightWrong)).BeginInit();
             this.SuspendLayout();
             // 
@@ -86,11 +87,23 @@
             this.lblRightWrong.TabIndex = 5;
             this.lblRightWrong.Text = "Hidden for now";
             // 
+            // btnPlay
+            // 
+            this.btnPlay.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlay.Location = new System.Drawing.Point(26, 457);
+            this.btnPlay.Name = "btnPlay";
+            this.btnPlay.Size = new System.Drawing.Size(335, 178);
+            this.btnPlay.TabIndex = 6;
+            this.btnPlay.Text = "PLAY!";
+            this.btnPlay.UseVisualStyleBackColor = true;
+            this.btnPlay.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmNumberGuess
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1399, 660);
+            this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.lblRightWrong);
             this.Controls.Add(this.picRightWrong);
             this.Controls.Add(this.btnGuess);
@@ -111,6 +124,7 @@
         private System.Windows.Forms.Button btnGuess;
         private System.Windows.Forms.PictureBox picRightWrong;
         private System.Windows.Forms.Label lblRightWrong;
+        private System.Windows.Forms.Button btnPlay;
     }
 }
 
