@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialDoWhileTishamI", "FactorialDoWhileTishamI\FactorialDoWhileTishamI.csproj", "{855BFFCC-A90F-42BD-97FD-5A4607F92EF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{855BFFCC-A90F-42BD-97FD-5A4607F92EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{855BFFCC-A90F-42BD-97FD-5A4607F92EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{855BFFCC-A90F-42BD-97FD-5A4607F92EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{855BFFCC-A90F-42BD-97FD-5A4607F92EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0417738F-EA20-41F9-91F7-C404653373B5}
+	EndGlobalSection
+EndGlobal
