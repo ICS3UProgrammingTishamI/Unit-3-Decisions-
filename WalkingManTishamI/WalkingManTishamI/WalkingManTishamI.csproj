@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{855BFFCC-A90F-42BD-97FD-5A4607F92EF3}</ProjectGuid>
+    <ProjectGuid>{0A33DE8D-8B8D-4826-B3CC-0201C397B61F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>FactorialDoWhileTishamI</RootNamespace>
-    <AssemblyName>FactorialDoWhileTishamI</AssemblyName>
+    <RootNamespace>WalkingManTishamI</RootNamespace>
+    <AssemblyName>WalkingManTishamI</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FactorialDoWhileForm.cs">
+    <Compile Include="WalkingManForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FactorialDoWhileForm.Designer.cs">
-      <DependentUpon>FactorialDoWhileForm.cs</DependentUpon>
+    <Compile Include="WalkingManForm.Designer.cs">
+      <DependentUpon>WalkingManForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="FactorialDoWhile.cs" />
+    <Compile Include="WalkingMan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FactorialDoWhileForm.resx">
-      <DependentUpon>FactorialDoWhileForm.cs</DependentUpon>
+    <EmbeddedResource Include="WalkingManForm.resx">
+      <DependentUpon>WalkingManForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk8.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk10.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
