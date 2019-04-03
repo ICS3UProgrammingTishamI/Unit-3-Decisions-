@@ -45,7 +45,7 @@ namespace ForEachControlTishamI
                     aControlObject.BackColor = Color.PaleVioletRed;
                 }
 
-                //listboxes become "Alice Blue"
+                //listboxes become "Alice Blue", a very pale blue
                 if (aControlObject.GetType() == typeof(ListBox))
                 {
                     aControlObject.BackColor = Color.AliceBlue;
