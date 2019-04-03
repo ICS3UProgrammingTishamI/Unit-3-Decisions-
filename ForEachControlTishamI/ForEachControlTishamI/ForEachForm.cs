@@ -27,18 +27,25 @@ namespace ForEachControlTishamI
 
         private void btnColours_Click(object sender, EventArgs e)
         {
+            //for all the objects of the control type, do this
             foreach (Control aControlObject in this.Controls)
             {
+                //all the text will become green
                 aControlObject.ForeColor = Color.LightGreen;
 
+                //Label becomes purple
                 if (aControlObject.GetType() == typeof(Label))
                 {
                     aControlObject.BackColor = Color.Purple;
                 }
+
+                //buttons become a pale violet red
                 if (aControlObject.GetType() == typeof(Button))
                 {
                     aControlObject.BackColor = Color.PaleVioletRed;
                 }
+
+                //listboxes become "Alice Blue"
                 if (aControlObject.GetType() == typeof(ListBox))
                 {
                     aControlObject.BackColor = Color.AliceBlue;

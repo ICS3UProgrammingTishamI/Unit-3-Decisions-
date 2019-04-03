@@ -27,15 +27,18 @@ namespace UnicodeTishamI
 
         private void btnStart_Click(object sender, EventArgs e)
         {
+            //variables
             string character;
             int counter;
 
-
+            //empty out the list beforehand
             lstUnicode.Items.Clear();
 
-
+            //65 is the decimal value for A in Unicode, 
+            //90 is the decimal value for Z in Unicode 
             for (counter = 65; counter <= 90; counter++)
             {
+                //Convert and then add to the list the character + its unicode value
                 character = Char.ConvertFromUtf32(counter);
                 lstUnicode.Items.Add(character + " -> " + Convert.ToString(counter));
             }

@@ -27,6 +27,7 @@ namespace SumOfNumbersTishamI
 
         private void btnCalculatirize_Click(object sender, EventArgs e)
         {
+            //variables
             int addNumber;
             int sum = 0;
             int addCounter;

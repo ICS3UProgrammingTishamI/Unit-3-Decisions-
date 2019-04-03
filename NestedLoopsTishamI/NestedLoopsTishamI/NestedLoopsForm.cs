@@ -32,15 +32,19 @@ namespace NestedLoopsTishamI
 
         private void btnListUnicode_Click(object sender, EventArgs e)
         {
+            //variables
             string character;
             string character2;
             int counter;
             int counter2;
 
+            //clear the list
             lstUnicode.Items.Clear();
 
+            //This will caculate the unicode characters and their values from A to Z
             for (counter = 65; counter <= 90; counter++)
             {
+                //This will caculate the unicode characters and their values from a to z
                 for (counter2 = 97; counter2 <= 122; counter2++)
                 {
                     character = Char.ConvertFromUtf32(counter);

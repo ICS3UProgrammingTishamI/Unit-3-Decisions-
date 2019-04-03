@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{25AEDE6D-4BB1-44A3-9DCF-DA39BC9E596A}</ProjectGuid>
+    <ProjectGuid>{93B1188F-E419-4123-B105-CC51C06298AA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>NestedLoopsTishamI</RootNamespace>
-    <AssemblyName>NestedLoopsTishamI</AssemblyName>
+    <RootNamespace>RunningAverageTishamI</RootNamespace>
+    <AssemblyName>RunningAverageTishamI</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NestedLoopsForm.cs">
+    <Compile Include="RunningAverageForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NestedLoopsForm.Designer.cs">
-      <DependentUpon>NestedLoopsForm.cs</DependentUpon>
+    <Compile Include="RunningAverageForm.Designer.cs">
+      <DependentUpon>RunningAverageForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="NestedLoops.cs" />
+    <Compile Include="RunningAverage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="NestedLoopsForm.resx">
-      <DependentUpon>NestedLoopsForm.cs</DependentUpon>
+    <EmbeddedResource Include="RunningAverageForm.resx">
+      <DependentUpon>RunningAverageForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
